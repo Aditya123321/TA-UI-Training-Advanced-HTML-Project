@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" manifest="offlineApp.manifest">
+	<head>
+		<meta charset="UTF-8">
+		<title>Note Taking App Offline</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="./css/app.css">
+    </head>
+    <script src="js/app.js"></script>
+	<body>
+		<header>
+			<nav class="nav" id="login">
+				<a href="no-network.html" id="login">Login</a>
+			</nav>
+			<img src="images/todologo.png" alt="todo app logo" id="images">
+
+		</header>
+<main class="row">
+<h2 class="hcss">List of To Dos:</h2>
+		<div id="task_container">
+			<ol id="sublist">
+			
+			</ol>
+		</div>
+	<aside class="row2">
+		<form name="task" onsubmit="addNote(event)">
+			<fieldset>
+				<legend>Create a new Task</legend>
+				<input type="text" placeholder="Task Name" name="taskname" id="taskname" value="" class="ip1">
+				<textarea class="textar" placeholder="Task Description" name="description" value="" id="description" rows="30"></textarea>
+				<input type="text" placeholder="Due Date" id="duedate" value="" name="duedate" class="ip1">
+				<button type="submit" class="btn">Add Task</button>
+			</fieldset>
+		</form>
+	</aside>
+</main>
+</body>
+</html>

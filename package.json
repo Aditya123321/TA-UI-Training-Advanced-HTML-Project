@@ -1,0 +1,30 @@
+{
+  "name": "advanced_html_note_taking_app",
+  "version": "1.0.0",
+  "description": "note-taking-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run built && webpack-dev-server --watch --open",
+    "built":"webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://tagitlab.techaspect.com/UI/Training/ui-june-2019/advanced-html-mini-project.git"
+  },
+  "author": "aditya",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^3.0.0",
+    "html-validator": "^4.0.3",
+    "mini-css-extract-plugin": "^0.7.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}

@@ -1,0 +1,13 @@
+CACHE MANIFEST
+# version 3.1
+
+CACHE:
+bootstrap/css/bootstrap.css
+images/todologo.png
+css/app.css
+js/app.js
+no-network.html
+new_location.html
+
+FALLBACK:
+/login.html /no-network.html
